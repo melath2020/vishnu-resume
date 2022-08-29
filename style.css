@@ -7,7 +7,8 @@
    
 }
 
-body {overflow-x: hidden;}
+body {overflow-x: hidden;
+    transition: 0.5s;}
 /* header-section */
 .header-section{
     width: 100vw;
@@ -239,10 +240,13 @@ exp-section */
 }
 
 
+/* works */
+
+
 .works-section{
     padding-top: 20px;
-    height: 500px;
     background-color: #d6d6f138;
+    margin: auto;
 }
 .items-work{
    
@@ -297,4 +301,17 @@ exp-section */
 }
 .w3-black{
     text-align: center;
+}
+.card-work{
+
+    margin-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+.card-body-works{
+    padding: 10px;
+    height: 90px;
+}
+.card{
+    margin-top: 10px;
 }
