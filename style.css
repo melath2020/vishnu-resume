@@ -35,8 +35,9 @@ body {overflow-x: hidden;
     font-size: 14px;
 }
 .menu a:hover{
+   
     text-decoration: none;
-    color: rgb(223, 190, 43);
+    color: rgb(168, 167, 236);
     padding-left: 10px;
     font-size: 14px;
 }
@@ -308,10 +309,41 @@ exp-section */
     padding-bottom: 5px;
     margin-bottom: 30px;
 }
+
 .card-body-works{
     padding: 10px;
     height: 90px;
 }
 .card{
     margin-top: 10px;
+}
+
+/* contact-section */
+
+.contact-section{
+    padding-top: 20px;
+    margin-top: 20px;
+    background: #dfdfe0;
+}
+.contact-section .items{
+    padding-top: 20px;
+    font-weight: 800;
+}
+.top-contact{
+    padding-top: 40px;
+}
+
+
+/* footer-section */
+.footer-section{
+    background:#3B3B5E;
+    text-align: center;
+    padding: 5px;
+  
+}
+.text-foot p{
+    padding-top: 10px;
+    color: #fff;
+    font-size: small;
+
 }
