@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    overflow: none;
+   
+}
+
+body {overflow-x: hidden;}
+/* header-section */
+.header-section{
+    width: 100vw;
+    background: #3B3B5E;
+    height: 76px;
+    padding-top: 25px;
+ 
+}
+.logo{
+    color: #fff;
+    font-size: larger;
+    font-weight: 500;
+}
+.menu {
+    position: relative;
+    display: block;
+    text-align: right;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.menu a:hover{
+    text-decoration: none;
+    color: rgb(223, 190, 43);
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+
+/* .header-section */
+.hero-section{
+   
+    display: flex;
+    background-color: #ffffff;
+    height: 100%;
+    justify-content: center;
+    background-image: url("/images/vishnu2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+    
+
+}
+.vector{
+    width: 100%;
+}
+.name{
+   font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+    line-height: 90px; 
+ 
+}
+.left{
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+.left p{
+    text-align: center;
+}
+
+h5 {
+   
+    font-weight: 200;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 1.9em;
+    color: #000;
+    padding: 0;
+    line-height: 0.8em !important;
+    text-transform: none;
+}
+
+h5 span {
+    color: #3B3B5E;
+    animation-delay: 2s;
+}
+.text-sub{
+    font-size: 15px;
+    color: gray;
+}
+
+
+/* social-media */
+.social-media{
+  
+    height: 90px;
+    background: #e5e5e6;
+}
+.text-social{
+    font-size: small;
+    text-align: center;
+    color: #3B3B5E;
+}
+.logos{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+
+}
+
+/* about-section */
+.about-section{
+    padding-bottom: 20px;
+    background:  linear-gradient(rgba(248, 244, 244, 0.404), rgba(255, 255, 255, 0.959)), url("/images/undraw_Resume_re_hkth.png") no-repeat  ;
+}
+
+
+
+.items{
+ 
+    text-align: center;
+    color: #1b1b1b;
+  
+   
+}
+.items h3{
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 24px;
+}
+.line{
+    margin: auto;
+    width: 50px;
+}
+.underline{
+    z-index: 1;
+    position: relative;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background: #3B3B5E;
+}
+.underline .underlinetwo{
+    position: absolute;
+    margin: auto;
+    height: 3px;
+    width: 50%;
+    background: gray;
+}
+.image-about{
+    padding-bottom: 20px;
+}
+.image-about img{
+    width: 100%;
+    height:100%;
+    border-radius: 2%;
+    object-fit: cover;
+    border-right: 5px solid #3B3B5E;
+    
+    
+}
+.text-post{
+    font-size: larger;
+    font-weight: 800;
+    color: rgb(148, 148, 148);
+    text-align: left;
+}
+.left-sub{
+    text-align: left;
+    font-size: 15px;
+    color: #3B3B5E;
+}
+.table ul{
+    text-align: left;
+    font-size: 18px;
+    color: #3B3B5E;
+    line-height: 40px;
+    width: 100vw;
+}
+/* 
+exp-section */
+
+.exp-section{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background: linear-gradient(rgb(248, 244, 244), rgba(255, 255, 255, 0.384)), url("/images/white-abstract-background_23-2148810113.webp") no-repeat ;
+    background-size: auto;
+    background-size: cover;
+  
+}
+.exp-section h3{
+    font-weight: 800;
+}
+
+
+.exp-card{
+    padding-top: 30px;
+}
+.card-body{
+    height: 180px;
+}
+
+.card-body h5{
+    color: #69696b;
+    line-height: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.card-top{
+    margin-top: 10px;
+  
+   
+}
+.card{
+    box-shadow: 4px 4px 5px 0.5px #1b1b1b25;
+    transition: 0.3s;
+    
+}
+.card:hover{
+    box-shadow: 4px 4px 5px 0.5px #1b1b1b25;
+    transform: scale(1.02);
+    border-bottom:4px solid #3B3B5E;
+}
+.card-subtitle{
+    text-align: center;
+    font-size: small;
+}
+.card-text{
+    font-size: smaller;
+    color: #3B3B5E;
+}
+
+
+.works-section{
+    padding-top: 20px;
+    height: 500px;
+    background-color: #d6d6f138;
+}
+.items-work{
+   
+    color: #1b1b1b;
+    font-weight: 800;
+}
+.line-work{
+  
+    width: 50px;
+}
+.underline-work{
+    z-index: 1;
+    position: relative;
+    height: 3px;
+    width: 100%;
+    background: #3B3B5E;
+}
+.underline .underlinetwo-work{
+    position: absolute;
+    height: 3px;
+    width: 50%;
+    background: gray;
+}
