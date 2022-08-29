@@ -266,3 +266,35 @@ exp-section */
     width: 50%;
     background: gray;
 }
+.w3-bar{
+    padding: 5px;
+}
+.w3-bar button{
+    margin-left: 5px;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    padding-top: 10px;
+    color: #f8f8f8;
+    border-radius: 5px;
+    background-color: #3B3B5E;
+    font-size: small;
+    transition: 0.10s;
+    box-shadow: 1px 2px 7px -1px #1b1b1b83;
+}
+
+.w3-bar button:hover{
+
+    border: none;
+    padding: 10px;
+    color: #f8f8f8;
+    border-radius: 5px;
+    background-color: #50509c;
+    font-size: small;
+    transform: scale(1.03);
+  
+
+}
+.w3-black{
+    text-align: center;
+}
