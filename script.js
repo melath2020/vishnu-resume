@@ -67,3 +67,7 @@ var TxtRotate = function (el, toRotate, period) {
     }
     document.getElementById(cityName).style.display = "block";  
   }
+
+
+
+  
