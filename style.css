@@ -343,7 +343,7 @@ exp-section */
 }
 
 .card-top{
-    margin-top: 0px;
+    margin-top: 20px;
   
    
 }
@@ -441,8 +441,8 @@ exp-section */
     padding: 10px;
     
 }
-.card{
-    margin-top: 10px;
+.card-work .card{
+    margin-top: 20px;
 }
 
 /* contact-section */
