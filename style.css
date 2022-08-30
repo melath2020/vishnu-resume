@@ -6,6 +6,9 @@
     overflow: none;
    
 }
+::-webkit-scrollbar {
+   z-index: 1;
+  }
 
 body {overflow-x: hidden;
     transition: 0.5s;}
@@ -441,7 +444,7 @@ exp-section */
 }
 .txt-Email{
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 500;
 }
 .contact .address{
     padding-left: 15px;
