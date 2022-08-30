@@ -102,7 +102,6 @@ h5 span {
 /* social-media */
 .social-media{
   
-    height: 90px;
     background: #e5e5e6;
 }
 .text-social{
@@ -112,8 +111,8 @@ h5 span {
 }
 .logos{
     text-align: center;
-    padding-top: 10px;
-    font-size: 25px;
+    padding-top: 1px;
+    font-size: 28px;
 
 }
 
@@ -217,7 +216,7 @@ exp-section */
 }
 
 .card-top{
-    margin-top: 10px;
+    margin-top: 0px;
   
    
 }
@@ -248,6 +247,7 @@ exp-section */
     padding-top: 20px;
     background-color: #d6d6f138;
     margin: auto;
+    padding-bottom: 20px
 }
 .items-work{
    
@@ -305,8 +305,7 @@ exp-section */
 }
 .card-work{
 
-    margin-top: 5px;
-    padding-bottom: 5px;
+ 
     margin-bottom: 30px;
 }
 
@@ -321,17 +320,76 @@ exp-section */
 /* contact-section */
 
 .contact-section{
-    padding-top: 20px;
-    margin-top: 20px;
     background: #dfdfe0;
 }
+.contact-section .container{
+    background: #c4b7f046;
+}
 .contact-section .items{
-    padding-top: 20px;
+   
     font-weight: 800;
 }
 .top-contact{
-    padding-top: 40px;
+ padding-top: 20px;
+ padding-bottom: 20px;
 }
+.txt-Email{
+    font-size: 18px;
+    font-weight: 800;
+}
+.contact .address{
+    padding-left: 15px;
+}
+.container{
+    position: relative;
+}
+.btn-submit{
+    position: absolute;
+    background: #3B3B5E;
+    border: none;
+    color: white;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    margin-right: 15px;
+  
+}
+.btn-submit:hover{
+    position: absolute;
+    background: #3535b6;
+    border: none;
+    color: white;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    margin-right: 15px;
+  
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    border: #3B3B5E;
+    box-shadow: none !important;
+}
+
+
 
 
 /* footer-section */
@@ -339,6 +397,7 @@ exp-section */
     background:#3B3B5E;
     text-align: center;
     padding: 5px;
+  
   
 }
 .text-foot p{
