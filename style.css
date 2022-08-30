@@ -27,7 +27,7 @@ body {overflow-x: hidden;
   
     z-index: 1;
     width: 100vw;
-    background: #3B3B5E;
+    
     
    
   }
@@ -46,7 +46,7 @@ body {overflow-x: hidden;
     color: #fff;
     font-size: larger;
     font-weight: 500;
-    padding-top: 10px;
+   
 }
 .menu {
     position: relative;
@@ -499,6 +499,12 @@ label:focus,
        padding-right: 20px;
        margin-bottom: 5px;
     }
+    .logo{
+        color: #fff;
+        font-size: larger;
+        font-weight: 500;
+        padding-top: 5px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -527,7 +533,7 @@ label:focus,
         padding-right: 20px;
         margin-bottom: 20px;
     }
-    
+   
  
 }
 
