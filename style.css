@@ -117,6 +117,7 @@ body {overflow-x: hidden;
 
 
 
+
 /* .header-section */
 .hero-section{
    
@@ -506,6 +507,10 @@ label:focus,
         font-weight: 500;
         padding-top: 5px;
     }
+    /* exp */
+    .card-body{
+        height: 170px;
+    }
     
 }
 
@@ -535,7 +540,13 @@ label:focus,
         padding-right: 20px;
         margin-bottom: 20px;
     }
-   
+    .card-body{
+        height: 300px;
+    }
+    /* exp */
+    .card-body{
+        height: 170px;
+    }
  
 }
 
@@ -553,7 +564,7 @@ label:focus,
 
     /* exp */
     .card-body{
-        height: 300px;
+        height: 280px;
     }
 }
 
@@ -568,6 +579,10 @@ label:focus,
     .menu-mob{
         display: none;
     }
+     /* exp */
+     .card-body{
+        height: 230px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -580,5 +595,8 @@ label:focus,
     }
     .menu-mob{
         display: none;
+    }
+    .card-body{
+        height: 220px;
     }
 }
