@@ -75,7 +75,7 @@ body {overflow-x: hidden;
     width:100vw;
     left: 0;
     right: 0;
-  z-index: 1;
+    z-index: 1;
     background:linear-gradient(to bottom,transparent,rgb(90, 89, 89));
     height: 100vh;
     transition: top 0.3s;
@@ -83,7 +83,7 @@ body {overflow-x: hidden;
 .mobile-nav{
     display: flex;
     flex-flow: column;
-    width: 100vw;
+    width: 90%;
     align-items: center;
     justify-content: center;
     background: rgb(255, 255, 255);
