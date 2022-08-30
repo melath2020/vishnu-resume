@@ -69,12 +69,17 @@ var TxtRotate = function (el, toRotate, period) {
   }
 
 
-  // scroll
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
 
-  window.addEventListener("scroll",function(){
-    var header =document.querySelector("header");
-    header.classList.toggle("sticky",window.scrollY > 0);
-  })
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("navbar-header").style.top = "0";
+  } else {
+    document.getElementById("navbar-header").style.top = "-150px";
+  }
+}
+
 
 
   // mobile nav
@@ -82,6 +87,23 @@ var TxtRotate = function (el, toRotate, period) {
   var menu= document.querySelector('#nav-btn')
 var menuwrapper=document.querySelector('.mobile-nav-wrapper')
 var close= document.querySelector('#close-btn')
+
+menu.addEventListener('click',function(e){
+    menuwrapper.style.display='block';
+    close.style.display='block';
+    menu.style.display='none'
+})
+
+close.addEventListener('click',function(e){
+    menuwrapper.style.display='none';
+    close.style.display='none';
+    menu.style.display='block'
+})
+
+
+var menu= document.querySelector('#nav-btns')
+var menuwrapper=document.querySelector('.mobile-nav-wrapper')
+var close= document.querySelector('#close-btns')
 
 menu.addEventListener('click',function(e){
     menuwrapper.style.display='block';

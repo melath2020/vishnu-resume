@@ -16,7 +16,7 @@ body {overflow-x: hidden;
     margin-top: 0px;
     width: 100vw;
     height: 76px;
-    background: #3B3B5E;
+    background: #c43247;
     
     padding-top: 25px;
  
@@ -31,6 +31,18 @@ body {overflow-x: hidden;
     
    
   }
+
+  #navbar-header{
+    background-color: #c43247;
+    position: fixed;
+    z-index: 1;
+    top: -100px;
+    width:100vw;
+    display: block;
+    transition: top 0.3s;
+    
+    
+}
   .sticky {
     position: fixed;
     z-index: 1;
@@ -104,6 +116,9 @@ body {overflow-x: hidden;
 #close-btn{
     display: none;
 }
+#close-btns{
+    display: none;
+}
 .menu-mob {
     position: relative;
     display: block;
@@ -165,7 +180,7 @@ h5 {
 }
 
 h5 span {
-    color: #3B3B5E;
+    color: #c43247;
     animation-delay: 2s;
 }
 .text-sub{
@@ -182,7 +197,7 @@ h5 span {
 .text-social{
     font-size: small;
     text-align: center;
-    color: #3B3B5E;
+    color: #74686a;
 }
 .logos{
     text-align: center;
@@ -222,7 +237,7 @@ h5 span {
     margin: auto;
     height: 3px;
     width: 100%;
-    background: #3B3B5E;
+    background: #c43247;
 }
 .underline .underlinetwo{
     position: absolute;
@@ -239,7 +254,7 @@ h5 span {
     height:100%;
     border-radius: 2%;
     object-fit: cover;
-    border-right: 5px solid #3B3B5E;
+    border-right: 5px solid #c43247;
     
     
 }
@@ -252,12 +267,12 @@ h5 span {
 .left-sub{
     text-align: left;
     font-size: 15px;
-    color: #3B3B5E;
+    color: #817d7e;
 }
 .table ul{
     text-align: left;
     font-size: 18px;
-    color: #3B3B5E;
+    color: #777172;
     line-height: 40px;
     width: 100vw;
 }
@@ -304,7 +319,7 @@ exp-section */
 .card:hover{
     box-shadow: 4px 4px 5px 0.5px #1b1b1b25;
     transform: scale(1.02);
-    border-bottom:4px solid #3B3B5E;
+    border-bottom:4px solid #c43247;
 }
 .card-subtitle{
     text-align: center;
@@ -339,7 +354,7 @@ exp-section */
     position: relative;
     height: 3px;
     width: 100%;
-    background: #3B3B5E;
+    background: #c43247;
 }
 .underline .underlinetwo-work{
     position: absolute;
@@ -358,7 +373,7 @@ exp-section */
     padding-top: 20px;
     color: #f8f8f8;
     border-radius: 7px;
-    background-color: #3B3B5E;
+    background-color: #c43247;
     font-size: 12px;
     transition: 0.10s;
     box-shadow: 1px 2px 7px -1px #1b1b1b83;
@@ -371,7 +386,7 @@ exp-section */
     padding: 10px;
     color: #f8f8f8;
     border-radius: 5px;
-    background-color: #3535b6;
+    background-color: #e26c7e;
     font-size: small;
     transform: scale(1.03);
   
@@ -422,7 +437,7 @@ exp-section */
 }
 .btn-submit{
    
-    background: #3B3B5E;
+    background: #c43247;
     border: none;
     color: white;
     padding: 8px;
@@ -437,7 +452,7 @@ exp-section */
 }
 .btn-submit:hover{
 
-    background: #3B3B5E;
+    background: #c43247;
    
     
   
@@ -456,7 +471,7 @@ label:focus,
 .btn.active
 {
     outline:0px !important;
-    border: #3B3B5E;
+    border: #c43247;
     box-shadow: none !important;
 }
 
@@ -465,7 +480,7 @@ label:focus,
 
 /* footer-section */
 .footer-section{
-    background:#3B3B5E;
+    background:#c43247;
     text-align: center;
     padding: 5px;
   
@@ -528,7 +543,7 @@ label:focus,
         z-index: 1;
         font-size: 30px;
         color: rgb(253, 253, 253);
-        background: #3B3B5E;
+        background: #c43247;
         width: 100vw;
         
     }
@@ -537,6 +552,10 @@ label:focus,
        margin-bottom: 20px;
     }
     #nav-btn{
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    #nav-btns{
         padding-right: 20px;
         margin-bottom: 20px;
     }
