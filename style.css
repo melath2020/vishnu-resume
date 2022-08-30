@@ -12,19 +12,23 @@ body {overflow-x: hidden;
 /* header-section */
 
 .header-section{
+    position: relative;
     margin-top: 0px;
     width: 100vw;
-    background: #3B3B5E;
     height: 76px;
+    background: #3B3B5E;
+    
     padding-top: 25px;
  
 }
 
 .header {
+   
+  
     z-index: 1;
     width: 100vw;
     background: #3B3B5E;
-    height: 76px;
+    
    
   }
   .sticky {
@@ -64,10 +68,51 @@ body {overflow-x: hidden;
 }
 
 /* mobile-nav */
-.fa-bars{
-    font-size: 24px;
-    margin-bottom: 200px;
+.mobile-nav-wrapper{
+    display: none;
+    position: fixed;
+    width:100vw;
+    left: 0;
+    right: 0;
+  z-index: 1;
+    background:linear-gradient(to bottom,transparent,rgb(90, 89, 89));
+    height: 100vh;
+    transition: top 0.3s;
 }
+.mobile-nav{
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.mobile-nav a{
+    font-weight: 600;
+    color:rgb(122, 118, 118); 
+    text-decoration: none;
+    margin: 1rem 0;
+    font-size: 20px;
+}
+#close-btn{
+    display: none;
+}
+.menu-mob {
+    position: relative;
+    display: block;
+    text-align: right;
+    color: white;
+    font-size: 25px;
+    
+    
+}
+
 
 
 
@@ -439,6 +484,20 @@ label:focus,
     .mobile-wrapper{
         display: block
     }
+    .menu-mob{
+      
+        display: block;
+        z-index: 1;
+        font-size: 30px;
+        color: rgb(252, 250, 250);
+       
+        
+        
+    }
+    .menu-mob .fa-bars{
+       padding-right: 20px;
+       margin-bottom: 5px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -449,6 +508,25 @@ label:focus,
     .mobile-wrapper{
         display: block
     }
+    .menu-mob{
+      
+        display: block;
+        z-index: 1;
+        font-size: 30px;
+        color: rgb(253, 253, 253);
+        background: #3B3B5E;
+        width: 100vw;
+        
+    }
+    .menu-mob .fa-bars{
+       padding-right: 20px;
+       margin-bottom: 20px;
+    }
+    #nav-btn{
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    
  
 }
 
@@ -460,6 +538,9 @@ label:focus,
     .mobile-wrapper{
         display: none
     }
+    .menu-mob{
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -470,6 +551,9 @@ label:focus,
     .mobile-wrapper{
         display: none;
     }
+    .menu-mob{
+        display: none;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -478,6 +562,9 @@ label:focus,
         display: block;
     }
     .mobile-wrapper{
+        display: none;
+    }
+    .menu-mob{
         display: none;
     }
 }
