@@ -211,7 +211,19 @@ h5 span {
     font-size: 15px;
     color: gray;
 }
-
+.btn-pdf{
+    border: none;
+    background: #c43247;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+   text-align: center;
+}
+.btn-resume{
+   text-align: center;
+   padding-top: 12px;
+}
 
 /* social-media */
 .social-media{
