@@ -75,7 +75,7 @@ body {overflow-x: hidden;
 .menu a:hover{
    
     text-decoration: none;
-    color: rgb(168, 167, 236);
+    color: #ebceae;
     padding-left: 10px;
     font-size: 14px;
 }
@@ -151,11 +151,12 @@ body {overflow-x: hidden;
     width: 100%;
 }
 .name{
-   font-size: 50px;
+   font-size: 40px;
     justify-content: center;
     text-align: center;
     font-weight: 800;
     line-height: 90px; 
+    color: #4e4c4c;
  
 }
 .left{
