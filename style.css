@@ -46,6 +46,7 @@ body {overflow-x: hidden;
     color: #fff;
     font-size: larger;
     font-weight: 500;
+    padding-top: 10px;
 }
 .menu {
     position: relative;
