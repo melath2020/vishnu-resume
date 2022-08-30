@@ -462,7 +462,7 @@ exp-section */
  padding-bottom: 20px;
 }
 .txt-Email{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 .contact .address{
@@ -483,6 +483,7 @@ exp-section */
     align-items: center;
     right: 0;
     margin-right: 15px;
+    font-size: small
    
   
 }
