@@ -63,6 +63,13 @@ body {overflow-x: hidden;
     font-size: 14px;
 }
 
+/* mobile-nav */
+.fa-bars{
+    font-size: 24px;
+    margin-bottom: 200px;
+}
+
+
 
 /* .header-section */
 .hero-section{
@@ -297,15 +304,15 @@ exp-section */
     padding: 5px;
 }
 .w3-bar button{
-    margin-left: 5px;
-    margin-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
     border: none;
-    padding: 10px;
-    padding-top: 10px;
+    padding-top: 8px;
     color: #f8f8f8;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: #3B3B5E;
-    font-size: small;
+    font-size: 12px;
     transition: 0.10s;
     box-shadow: 1px 2px 7px -1px #1b1b1b83;
 }
@@ -327,7 +334,7 @@ exp-section */
 }
 .card-work{
 
- 
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
@@ -421,4 +428,56 @@ label:focus,
     color: #fff;
     font-size: small;
 
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .menu{
+        display: none;
+    }
+    .mobile-wrapper{
+        display: block
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .menu{
+        display: none;
+    }
+    .mobile-wrapper{
+        display: block
+    }
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .menu{
+        display: block;
+    }
+    .mobile-wrapper{
+        display: none
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menu{
+        display: block;
+    }
+    .mobile-wrapper{
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .menu{
+        display: block;
+    }
+    .mobile-wrapper{
+        display: none;
+    }
 }
