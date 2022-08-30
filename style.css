@@ -354,13 +354,14 @@ exp-section */
     padding-right: 8px;
     padding-bottom: 8px;
     border: none;
-    padding-top: 8px;
+    padding-top: 20px;
     color: #f8f8f8;
     border-radius: 7px;
     background-color: #3B3B5E;
     font-size: 12px;
     transition: 0.10s;
     box-shadow: 1px 2px 7px -1px #1b1b1b83;
+    margin-top: 10px;
 }
 
 .w3-bar button:hover{
@@ -505,6 +506,7 @@ label:focus,
         font-weight: 500;
         padding-top: 5px;
     }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
