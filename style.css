@@ -550,6 +550,11 @@ label:focus,
     .menu-mob{
         display: none;
     }
+
+    /* exp */
+    .card-body{
+        height: 300px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
