@@ -101,18 +101,18 @@ close.addEventListener('click',function(e){
 })
 
 
-// var menu= document.querySelector('#nav-btns')
-// var menuwrapper=document.querySelector('.mobile-nav-wrappers')
-// var close= document.querySelector('#close-btns')
+var nav= document.querySelector('#nav-btns')
+var mobilenav=document.querySelector('.mobile-nav-wrappers')
+var remove= document.querySelector('#close-btns')
 
-// menu.addEventListener('click',function(e){
-//     menuwrapper.style.display='block';
-//     close.style.display='block';
-//     menu.style.display='none'
-// })
+nav.addEventListener('click',function(e){
+    mobilenav.style.display='block';
+    remove.style.display='block';
+    nav.style.display='none'
+})
 
-// close.addEventListener('click',function(e){
-//     menuwrapper.style.display='none';
-//     close.style.display='none';
-//     menu.style.display='block'
-// })
+remove.addEventListener('click',function(e){
+    mobilenav.style.display='none';
+    remove.style.display='none';
+    nav.style.display='block'
+})
