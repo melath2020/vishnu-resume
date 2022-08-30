@@ -10,6 +10,13 @@
    z-index: 1;
   }
 
+*::-webkit-scrollbar-track {
+    background: #f5d4d4;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
 body {overflow-x: hidden;
     transition: 0.5s;}
 /* header-section */
