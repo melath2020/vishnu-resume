@@ -128,7 +128,9 @@ body {overflow-x: hidden;
     
     
 }
-
+.mobile-nav a:hover{
+    color: #aa3345;
+}
 
 
 
