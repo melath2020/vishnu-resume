@@ -246,7 +246,7 @@ h5 span {
 /* about-section */
 .about-section{
     padding-bottom: 20px;
-    background:  linear-gradient(rgba(248, 244, 244, 0.404), rgba(255, 255, 255, 0.959)), url("/images/undraw_Resume_re_hkth.png") no-repeat  ;
+    background:  linear-gradient(rgba(248, 244, 244, 0.404), rgba(255, 255, 255, 0.959)), url("images/undraw_Resume_re_hkth.png") no-repeat  ;
 }
 
 
