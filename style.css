@@ -92,6 +92,17 @@ body {overflow-x: hidden;
     height: 100vh;
     transition: top 0.3s;
 }
+.mobile-nav-wrappers{
+    display: none;
+    position: fixed;
+    width:100vw;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background:linear-gradient(to bottom,transparent,rgb(90, 89, 89));
+    height: 100vh;
+    transition: top 0.3s;
+}
 .mobile-nav{
     display: flex;
     flex-flow: column;
