@@ -11,12 +11,30 @@ body {overflow-x: hidden;
     transition: 0.5s;}
 /* header-section */
 .header-section{
+    
+   
     width: 100vw;
     background: #3B3B5E;
     height: 76px;
     padding-top: 25px;
  
 }
+.header-sroll{
+    
+    z-index: 1;
+    width: 100vw;
+    background: #3B3B5E;
+    height: 76px;
+    padding-top: 25px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+  }
+
+  
 .logo{
     color: #fff;
     font-size: larger;
@@ -141,7 +159,7 @@ h5 span {
     width: 50px;
 }
 .underline{
-    z-index: 1;
+   
     position: relative;
     margin: auto;
     height: 3px;
@@ -344,7 +362,7 @@ exp-section */
     position: relative;
 }
 .btn-submit{
-    position: absolute;
+   
     background: #3B3B5E;
     border: none;
     color: white;
@@ -355,20 +373,14 @@ exp-section */
     align-items: center;
     right: 0;
     margin-right: 15px;
+   
   
 }
 .btn-submit:hover{
-    position: absolute;
-    background: #3535b6;
-    border: none;
-    color: white;
-    padding: 8px;
-    margin-top: 20px;
-    border-radius: 5px;
-    justify-content: center;
-    align-items: center;
-    right: 0;
-    margin-right: 15px;
+
+    background: #3B3B5E;
+   
+    
   
 }
 textarea:hover, 
