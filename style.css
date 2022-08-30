@@ -18,6 +18,7 @@
   }
 
 body {overflow-x: hidden;
+    background-size: contain;
     transition: 0.5s;}
 /* header-section */
 
@@ -321,6 +322,7 @@ exp-section */
     background: linear-gradient(rgb(248, 244, 244), rgba(255, 255, 255, 0.384)), url("images/white-abstract-background_23-2148810113.webp") no-repeat ;
     background-size: auto;
     background-size: cover;
+   
   
 }
 .exp-section h3{
@@ -350,6 +352,7 @@ exp-section */
 .card{
     box-shadow: 4px 4px 5px 0.5px #1b1b1b25;
     transition: 0.3s;
+    width: fit-content;
     
 }
 .card:hover{
@@ -570,12 +573,6 @@ label:focus,
         font-weight: 500;
         padding-top: 5px;
     }
-    html,body {
-        margin:0;
-        padding:0;
-        overflow-x:hidden;
-        overflow-y:hidden;
-        }
    
     /* exp */
    
@@ -612,11 +609,7 @@ label:focus,
         padding-right: 20px;
         margin-bottom: 20px;
     }
-    html,body {
-        margin:0;
-        padding:0;
-        overflow-x:hidden;
-        }
+
    
     /* exp */
   
