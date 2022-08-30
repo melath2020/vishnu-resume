@@ -10,29 +10,35 @@
 body {overflow-x: hidden;
     transition: 0.5s;}
 /* header-section */
+
 .header-section{
-    
-   
+    margin-top: 0px;
     width: 100vw;
     background: #3B3B5E;
     height: 76px;
     padding-top: 25px;
  
 }
-.header-sroll{
-    
+
+.header {
     z-index: 1;
     width: 100vw;
     background: #3B3B5E;
     height: 76px;
-    padding-top: 25px;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100vw;
+   
   }
+  .sticky {
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 76px;
+   
+   
+  }
+ 
+  
+
+
 
   
 .logo{
@@ -131,6 +137,7 @@ h5 span {
     text-align: center;
     padding-top: 1px;
     font-size: 28px;
+    padding-bottom: 10px;
 
 }
 

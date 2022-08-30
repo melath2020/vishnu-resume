@@ -71,17 +71,7 @@ var TxtRotate = function (el, toRotate, period) {
 
   // scroll
 
-  window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-
-  
+  window.addEventListener("scroll",function(){
+    var header =document.querySelector("header");
+    header.classList.toggle("sticky",window.scrollY > 0);
+  })
