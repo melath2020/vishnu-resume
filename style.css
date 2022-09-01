@@ -4,6 +4,7 @@
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     overflow: none;
+    scroll-behavior: smooth;
    
 }
 ::-webkit-scrollbar {
@@ -573,6 +574,14 @@ label:focus,
         font-weight: 500;
         padding-top: 5px;
     }
+    html{
+        overflow-x: hidden;
+     
+    }
+    body::-webkit-scrollbar {
+        display: none;
+      }
+  
    
     /* exp */
    
@@ -609,7 +618,7 @@ label:focus,
         padding-right: 20px;
         margin-bottom: 20px;
     }
-
+ 
    
     /* exp */
   
