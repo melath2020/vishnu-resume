@@ -251,6 +251,9 @@ h5 span {
     background:  linear-gradient(rgba(248, 244, 244, 0.404), rgba(255, 255, 255, 0.959)), url("images/undraw_Resume_re_hkth.png") no-repeat  ;
 }
 
+.text-about-main{
+    color: #69696b;
+}
 
 
 .items{
@@ -636,7 +639,8 @@ label:focus,
     .menu-mob{
         display: none;
     }
-
+   
+   
     /* exp */
    
 }
