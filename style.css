@@ -221,6 +221,17 @@ h5 span {
     border-radius: 5px;
     font-size: 10px;
    text-align: center;
+   transition: 0.1s;
+}
+.btn-pdf:hover{
+    border: none;
+    background: #f13a56;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+   text-align: center;
+   transform: scale(1.04);
 }
 .btn-resume{
    text-align: center;
