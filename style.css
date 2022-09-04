@@ -45,7 +45,7 @@ body {overflow-x: hidden;
   }
 
   #navbar-header{
-    background-color: #c43247;
+    background-color: #c43248e8;
     position: fixed;
     z-index: 1;
     top: -100px;
@@ -310,9 +310,14 @@ h5 span {
     font-size: 15px;
     color: #817d7e;
 }
+.table{
+    margin: 0;
+    padding: 0;
+}
 .table ul{
+   
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
     color: #777172;
     line-height: 40px;
     width: 100vw;
