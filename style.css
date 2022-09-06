@@ -617,7 +617,7 @@ label:focus,
     }
     .menu-mob{
       
-        display: block;
+        display: none;
         z-index: 1;
         font-size: 30px;
         color: rgb(253, 253, 253);
@@ -637,6 +637,9 @@ label:focus,
         padding-right: 20px;
         margin-bottom: 20px;
     }
+ 
+    
+    
  
    
     /* exp */
